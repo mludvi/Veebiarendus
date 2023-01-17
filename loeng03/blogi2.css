@@ -1,0 +1,28 @@
+html {
+    font-size: 20px;
+}
+
+body {
+    background-color: rgb(81, 51, 14);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+.konteiner {
+background-color: aqua;
+}
+
+.uudistevoog {
+    display: flex;
+}
+
+.uudis-pealkiri {
+font-size: 1,5rem;
+font-weight: bold;
+}
+
+.uudis-kuupäev {
+    font-size: 0,7rem;
+    color: blueviolet;
+    font-weight: bold;
+}

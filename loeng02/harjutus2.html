@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,21 @@
     <title>Autentimine</title>
 </head>
 <style>
-    body {border-style: solid ;}
+    #konteiner {
+        border-style: solid;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        padding: 15px;
+        background-color: rgba(96, 211, 232, 0.921);
+        border-radius: 15px;
+        text-align: center;
+    }
 </style>
-    <body> 
+
+<body>
+    <div id="konteiner">
     <h1>Logi sisse</h1>
     <form action="#" method="get">
         <div>
@@ -23,7 +36,7 @@
         <div>
             <label for="salasõna">Salasõna</label><br>
             <input type="password" name="salasona">
-        </div> 
+        </div>
         <div>
             <label for="kordus salasona">Kordus salasõna</label><br>
             <input type="text" name="kordus salasona">
@@ -32,11 +45,13 @@
             <input type="checkbox">
             <label for="olen nous">Olen nõus</label>
         </div>
-              
-        <input type="submit" value="Logi sisse"> 
-        
-        
+
+        <input type="submit" value="Logi sisse">
+
+
     </form>
-    
+</div>
+
 </body>
+
 </html>

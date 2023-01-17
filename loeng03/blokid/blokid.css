@@ -1,0 +1,16 @@
+.konteiner {
+    background-color: rgb(2, 37, 25);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.blokk {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(18, 18, 53);
+    border-width: 1px;
+    border-color: rgb(159, 82, 82);
+    border-style: solid;
+}
