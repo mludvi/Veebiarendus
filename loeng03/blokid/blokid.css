@@ -1,5 +1,5 @@
 .konteiner {
-    background-color: rgb(2, 37, 25);
+    background-color: rgb(5, 209, 236);
     display: flex;
     justify-content: center;
     height: 100vh;
@@ -9,8 +9,8 @@
 .blokk {
     width: 150px;
     height: 150px;
-    background-color: rgb(18, 18, 53);
+    background-color: rgb(27, 27, 202);
     border-width: 1px;
-    border-color: rgb(159, 82, 82);
+    border-color: rgb(219, 88, 88);
     border-style: solid;
 }
