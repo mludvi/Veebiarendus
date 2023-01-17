@@ -6,7 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Autentimine</title>
 </head>
+<style>
+    #konteiner {
+        border-style: solid;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        padding: 15px;
+        background-color: rgba(96, 211, 232, 0.921);
+        border-radius: 15px;
+        text-align: center;
+    }
+</style>
 <body>
+    <div id="konteiner">
     <h1>Logi sisse</h1>
     <form action="#" method="get">
         <div>
@@ -14,14 +28,27 @@
             <input type="text" name="nimi">
         </div>
         <div>
+            <label for="email">E-mail</label><br>
+            <input type="text" name="email">
+        </div>
+        <div>
             <label for="salasõna">Salasõna</label><br>
             <input type="password" name="salasona">
-        </div> 
-              
-        <input type="submit" value="Logi sisse"> 
-        
-        
+        </div>
+        <div>
+            <label for="kordus salasona">Kordus salasõna</label><br>
+            <input type="text" name="kordus salasona">
+        </div>
+        <div>
+            <input type="checkbox">
+            <label for="olen nous">Olen nõus</label>
+        </div>
+
+        <input type="submit" value="Logi sisse">
+
+
     </form>
+</div>
     
 </body>
 </html>
