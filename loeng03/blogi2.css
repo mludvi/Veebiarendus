@@ -3,13 +3,13 @@ html {
 }
 
 body {
-    background-color: rgb(72, 72, 146);
+    background-color: aliceblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-family: 'Rubik', sans-serif;
 }
 
 .konteiner {
-background-color: aqua;
+background-color: #00ABE4;
 }
 
 .uudistevoog {
@@ -23,6 +23,6 @@ font-weight: bold;
 
 .uudis-kuupäev {
     font-size: 0,7rem;
-    color: blueviolet;
+    color: #E9F1FA;
     font-weight: bold;
 }
