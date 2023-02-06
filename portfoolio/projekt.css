@@ -1,0 +1,26 @@
+html {
+    font-size: 20px;
+}
+body {
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.konteiner {
+    background-color: rgb(108, 158, 201);
+}
+h1 {
+    color: black;
+    text-align: center;
+    text-decoration: solid;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 960px;
+    margin: auto;
+}
+.portfolio-element {
+    font-size: 1,5rem;
+    font-weight: bold;
+}
